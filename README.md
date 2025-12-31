@@ -1,47 +1,35 @@
-# CRM System (Database-Driven)
+# Customer Relationship Management (CRM) System
 
-## 📌 Overview
-This project implements a basic Customer Relationship Management (CRM) system using a structured, database-driven approach. The goal is to demonstrate how customer-related data can be organized, managed, and queried to support operational tracking and business decision making.
+## Overview
+This project focuses on designing and implementing a Customer Relationship Management (CRM) system to support structured management of customer data, interactions, and operational workflows. The system emphasizes database-driven design and reliable backend logic to ensure data consistency and usability.
 
-The project focuses on data modeling, structured storage, and query-based workflows rather than front-end development.
+The goal of this project is to demonstrate how well-designed database systems can support business operations and decision making.
 
-## 🎯 Objectives
-- Design a relational structure to manage customer information
-- Support basic CRM-style operations such as storing and retrieving customer records
-- Demonstrate system-oriented thinking using database concepts
-- Enable query-based reporting for business insights
+## Problem Context
+Organizations often struggle to manage customer information across multiple processes such as enrollment, interaction tracking, and relationship management. Without a centralized and structured system, data becomes fragmented, leading to inefficiencies and poor decision support.
 
-## 🧠 Approach
-- Modeled CRM entities using a relational database design
-- Implemented database scripts to handle customer data operations
-- Used structured queries to retrieve and analyze stored information
-- Focused on data integrity and logical relationships between entities
+This project addresses that challenge by modeling a CRM system that organizes customer-related data into a structured, queryable, and scalable backend.
 
-## 🛠 Tools & Technologies
-- **Languages:** SQL  
-- **Concepts:** Relational database design, structured queries, data integrity  
-- **System Focus:** Database-centric application logic
+## System Design & Approach
+- Designed relational database schemas to model customers and related entities
+- Implemented SQL and PL/SQL logic to manage core system operations
+- Ensured data integrity through constraints and procedural logic
+- Focused on backend reliability rather than UI-driven features
+- Structured workflows to reflect real-world operational scenarios
 
-## 📊 Key Features
-- Customer data storage and management
-- Structured querying for CRM-related information
-- Database-driven workflows to support operational use cases
+## Tools & Technologies
+- SQL  
+- PL/SQL  
+- Relational database design  
+- Backend system logic
 
-## 📁 Repository Contents
-This repository includes:
-- Database scripts and project files (contained in ZIP format)
-- Instructions for running or exploring the project
-- This README file for documentation
+## Key Capabilities
+- Centralized storage of customer information
+- Structured handling of customer records and relationships
+- Backend logic to support operational workflows
+- Query-ready data model to support reporting and analysis
 
-## 🚀 How to Explore
-1. Download or clone the repository  
-   ```bash
-   git clone https://github.com/parthd2804/CRM-master.git
-2. Review the provided project files and scripts
-3. Execute the SQL scripts in a suitable database environment to explore functionality
-
-## 📁 Future Improvements
-- Extend the data model with additional CRM entities
-- Add reporting and aggregation queries
-- Integrate an application or UI layer on top of the database
-   
+## Notes & Future Improvements
+- Add reporting and analytics features for customer insights
+- Extend the schema to support more advanced CRM use cases
+- Integrate a frontend interface for improved usability
